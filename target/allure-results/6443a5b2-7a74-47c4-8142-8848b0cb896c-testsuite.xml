@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1514058159292" stop="1514058206329" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : test</name>
+    <title>Default Suite : test</title>
+    <test-cases>
+        <test-case start="1514058169317" stop="1514058169318" status="pending">
+            <name>providersTest</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24673@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514058174320" stop="1514058174320" status="pending">
+            <name>searchSuggestedTest</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24673@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514058185979" stop="1514058188171" status="passed">
+            <name>negativePaymentTest[PaymentData{payerCode={error=Поле обязательное, value=}, period={error=Поле обязательное, value=}, insurance=null, amount={error=Поле обязательное, value=}}]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="test"/>
+                <label name="testClass" value="ZhkuMoskvaTests"/>
+                <label name="testMethod" value="negativePaymentTest"/>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24673@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514058195293" stop="1514058197130" status="passed">
+            <name>negativePaymentTest[PaymentData{payerCode={error=Поле неправильно заполнено, value=0}, period={error=Поле заполнено некорректно, value=0}, insurance=null, amount={error=Минимальная сумма перевода — 10 ₽, value=0}}]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="test"/>
+                <label name="testClass" value="ZhkuMoskvaTests"/>
+                <label name="testMethod" value="negativePaymentTest"/>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24673@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514058204214" stop="1514058206327" status="passed">
+            <name>negativePaymentTest[PaymentData{payerCode={error=null, value=12445678910}, period={error=Поле заполнено некорректно, value=00.0000}, insurance=null, amount={error=Максимальная сумма перевода — 15 000 ₽, value=20 000}}]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="test"/>
+                <label name="testClass" value="ZhkuMoskvaTests"/>
+                <label name="testMethod" value="negativePaymentTest"/>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24673@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

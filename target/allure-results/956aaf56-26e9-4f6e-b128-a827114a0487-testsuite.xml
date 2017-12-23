@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1514057968833" stop="1514058031406" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : test</name>
+    <title>Default Suite : test</title>
+    <test-cases>
+        <test-case start="1514057978852" stop="1514057978853" status="pending">
+            <name>providersTest</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24635@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514057983859" stop="1514057983859" status="pending">
+            <name>searchSuggestedTest</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24635@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514057996546" stop="1514057998990" status="passed">
+            <name>negativePaymentTest[model.PaymentData@4ef74c30]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="test"/>
+                <label name="testClass" value="ZhkuMoskvaTests"/>
+                <label name="testMethod" value="negativePaymentTest"/>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24635@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514058013775" stop="1514058018913" status="passed">
+            <name>negativePaymentTest[model.PaymentData@79c97cb]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="test"/>
+                <label name="testClass" value="ZhkuMoskvaTests"/>
+                <label name="testMethod" value="negativePaymentTest"/>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24635@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514058027712" stop="1514058031404" status="passed">
+            <name>negativePaymentTest[model.PaymentData@2812b107]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="test"/>
+                <label name="testClass" value="ZhkuMoskvaTests"/>
+                <label name="testMethod" value="negativePaymentTest"/>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24635@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

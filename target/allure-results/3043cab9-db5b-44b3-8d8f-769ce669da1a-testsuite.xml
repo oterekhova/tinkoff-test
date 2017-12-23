@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1514056454291" stop="1514056538788" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : test</name>
+    <title>Default Suite : test</title>
+    <test-cases>
+        <test-case start="1514056454326" stop="1514056454330" status="pending">
+            <name>providersTest</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24483@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514056454331" stop="1514056454331" status="pending">
+            <name>searchSuggestedTest</name>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24483@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514056461436" stop="1514056538786" status="broken">
+            <name>negativePaymentTest[model.PaymentData@c8b96ec]</name>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="test"/>
+                <label name="testClass" value="ZhkuMoskvaTests"/>
+                <label name="testMethod" value="negativePaymentTest"/>
+                <label name="host" value="Mac-mini-Andrej.local"/>
+                <label name="thread" value="24483@Mac-mini-Andrej.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1514056454291" stop="1514056538786" status="broken">
+            <name>Default Suite : test</name>
+            <title>Default Suite : test</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
